@@ -1,21 +1,31 @@
 package classandobject;
 
 public class Human {
+	
    
 	String name;
 	double height;
 	double weight;
 	String color;
 	
-	void speak(){
-		System.out.println("Human loves to speak");
+	public void speak(String content){
+	 System.out.println(content);
 	}
 	
 	void walk() {
-		System.out.println("Human enjoy daily walk");
+		
 	}
 
 	void cry() {
-		System.out.println("Human can cry");
+		
+	}
+
+	public static void main(String[] args) {
+		Human h1=new Human();
+		h1.speak("Hello");
+		
 	}
 }
+
+
+
