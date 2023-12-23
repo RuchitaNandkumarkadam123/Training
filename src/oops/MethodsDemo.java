@@ -8,6 +8,9 @@ public class MethodsDemo {
 			System.out.println(k);
 			int s=Calculator.toSub(10 , 5);
 			System.out.println(s);
+			System.out.println(cal.valueOfPie());
+			double r=Calculator.myHeight();
+			System.out.println(r);
 			
 			
 		}
@@ -35,7 +38,21 @@ public class MethodsDemo {
 	        	double c=a*b;
 	        	return c;
 	        }
+	        
+	        //Non parameterized and nonstatic method 
+	        
+	        double valueOfPie() {
+	        
+	        return 3.14;
+	        }
+	        
+	        //Non parameterized and static method 
+	        static double myHeight() {
+	        	
+	        return 5.1;
+	        
 }
+         }
 }
 
 
