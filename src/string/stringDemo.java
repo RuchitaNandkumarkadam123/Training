@@ -9,6 +9,8 @@ public static void main(String[] args) {
 	String s2="Java";
 	String s3="Ruchita";
 	String s4=new String("Ruchita");
+	String s5= "AbC#$dEf";
+	String s6="ab&fdrgt";
 	
 	
 	System.out.println(s1 == s3);
@@ -19,5 +21,8 @@ public static void main(String[] args) {
 	
 	System.out.println(s1.equals(s2));
 	System.out.println(s3.equals(s4));
+	
+	System.out.println(s6.toUpperCase());
+	System.out.println(s5.toLowerCase());
 	}
 }
