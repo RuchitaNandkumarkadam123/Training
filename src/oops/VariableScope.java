@@ -4,12 +4,13 @@ public class VariableScope {
        public static void main(String[] args) {
     	   Demo5 D5=new Demo5();
     	   D5.add();
+    	   System.out.println(Demo5.j);
+    	   
     	   //Demo5;  //while calling static variable i am getting error can u please help me with that 
        } 
 }
     	 
- class Demo5{
-	 
+ class Demo5{ 
 	int i =10;          //instance variable 
 	static int j =20;     //Static variable  
 	public void add() {
