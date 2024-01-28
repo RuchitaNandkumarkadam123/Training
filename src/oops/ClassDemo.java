@@ -2,17 +2,17 @@ package oops;
 
 public class ClassDemo {
   public static void main(String[] args) {
-	  Demo10 d5=new Demo10();
+	  TestOne d5=new TestOne();
 	  d5.add(10, 20);
-	  Demo6 d6=new Demo6();
-	  Demo7 d7=new Demo7();
-	  int s1=Demo8.i;
+	  TestTwo d6=new TestTwo();
+	  TestThree d7=new TestThree();
+	  int s1=TestFour.i;
 	  System.out.println(s1);
 }
 }
 
 
-class Demo10{
+class TestOne{
 	public void add(int i , int j) {
 		int sum=i+j;
 		System.out.println(sum);
@@ -20,14 +20,14 @@ class Demo10{
 	}
 }
 
-class Demo6{
+class TestTwo{
 	
 	
 }
 
-class Demo7{
+class TestThree{
 	
 }
-class Demo8{
+class TestFour{
 	static int i =20;
 }
