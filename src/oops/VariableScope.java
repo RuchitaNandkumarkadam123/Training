@@ -6,7 +6,7 @@ public class VariableScope {
     	   D5.add();
     	   System.out.println(Demo5.j);
     	   
-    	   //Demo5;  //while calling static variable i am getting error can u please help me with that 
+    	    
        } 
 }
     	 
@@ -14,7 +14,7 @@ public class VariableScope {
 	int i =10;          //instance variable 
 	static int j =20;     //Static variable  
 	public void add() {
-		System.out.println(this.i=i);
+		System.out.println(this.i);
 		int a=50 ;        //local variable 
 		System.out.println(a);
 	}
